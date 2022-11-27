@@ -1,8 +1,8 @@
-import { Headline } from "../Headline";
-import { Links } from "../Links";
-import classes from "./Main.module.css";
+import classes from "src/components/Main/Main.module.css";
+import { Links } from "src/components/Links";
+import { Headline } from "src/components/Headline";
 
-export default function Main({ page }) {
+export function Main({ page }) {
   return (
     <main className={classes.main}>
       <Headline page={page}>
